@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(255 254 246);
+    min-height: 100vh;
+    border: 20px solid #e5e5fd;
+    
+}
+.content{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.top_section{
+    margin-top: 100px;
+    display: flow;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0 20%;
+    
+}
+.top_section h1{
+    font-size: 43px;
+    font-weight: bold;
+    color: rgb(223, 108, 26);
+    text-transform: uppercase;
+    text-align: end;
+    column-width: 70vh;
+}
+.top_section h4{
+    font-size: 30px;
+    text-align: end;
+    color: rgb(186, 109, 61);
+
+}
+.image_container{
+    border-radius: 510px;
+    overflow: hidden;
+    margin-top: 200px;
+    margin-right: 20px;
+}
+.image_container,img {
+    height: 200px;
+    width: auto;
+    border-radius: 550px;
+}
+.about_section{
+margin-top: 50px;
+}
+.about_section h2{
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    
+}
+.about_section p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+.biograohy{
+    margin: 50px 0;
+}
+.biograohy h3{
+    margin: 35px 0;
+}
+.biograohy ul{
+    margin-left: 50px;
+}
+.biograohy li{
+   margin-bottom: 12px;
+}
+.footer{
+    margin: 50px 0;
+}
+.footer p{
+    text-align: end;
+}
